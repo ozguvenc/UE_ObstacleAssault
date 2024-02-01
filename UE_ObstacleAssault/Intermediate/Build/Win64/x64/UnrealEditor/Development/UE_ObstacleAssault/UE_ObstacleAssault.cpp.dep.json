@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github\\unreal_engine\\ue_obstacleassault\\ue_obstacleassault\\source\\ue_obstacleassault\\ue_obstacleassault.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github\\unreal_engine\\ue_obstacleassault\\ue_obstacleassault\\intermediate\\build\\win64\\x64\\ue_obstacleassaulteditor\\development\\engine\\sharedpch.engine.cpp20.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "d:\\github\\unreal_engine\\ue_obstacleassault\\ue_obstacleassault\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\ue_obstacleassault\\definitions.ue_obstacleassault.h",
+            "d:\\github\\unreal_engine\\ue_obstacleassault\\ue_obstacleassault\\source\\ue_obstacleassault\\ue_obstacleassault.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

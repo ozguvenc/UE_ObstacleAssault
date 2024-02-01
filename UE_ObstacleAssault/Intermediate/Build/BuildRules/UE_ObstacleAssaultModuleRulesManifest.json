@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault\\UE_ObstacleAssault.Build.cs",
+		"D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault.Target.cs",
+		"D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssaultEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

@@ -1,0 +1,42 @@
+[
+	{
+		"file": "D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault\\Private\\MovingPlatform.cpp",
+		"arguments": [
+			"D:\\Program Files\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\.vscode\\compileCommands_UE_ObstacleAssault\\UE_ObstacleAssault.1.rsp"
+		],
+		"directory": "D:\\Program Files\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault\\Public\\MovingPlatform.h",
+		"arguments": [
+			"D:\\Program Files\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\.vscode\\compileCommands_UE_ObstacleAssault\\UE_ObstacleAssault.1.rsp"
+		],
+		"directory": "D:\\Program Files\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault\\UE_ObstacleAssault.Build.cs",
+		"arguments": [
+			"D:\\Program Files\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\.vscode\\compileCommands_UE_ObstacleAssault\\UE_ObstacleAssault.1.rsp"
+		],
+		"directory": "D:\\Program Files\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault\\UE_ObstacleAssault.cpp",
+		"arguments": [
+			"D:\\Program Files\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\.vscode\\compileCommands_UE_ObstacleAssault\\UE_ObstacleAssault.1.rsp"
+		],
+		"directory": "D:\\Program Files\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\Source\\UE_ObstacleAssault\\UE_ObstacleAssault.h",
+		"arguments": [
+			"D:\\Program Files\\VisualStudio\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe",
+			"@D:\\GitHub\\UNREAL_ENGINE\\UE_ObstacleAssault\\UE_ObstacleAssault\\.vscode\\compileCommands_UE_ObstacleAssault\\UE_ObstacleAssault.1.rsp"
+		],
+		"directory": "D:\\Program Files\\UE_5.3\\Engine\\Source"
+	}
+]

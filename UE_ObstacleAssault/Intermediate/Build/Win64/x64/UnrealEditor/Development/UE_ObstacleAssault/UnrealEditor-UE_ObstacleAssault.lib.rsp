@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-UE_ObstacleAssault.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UE_ObstacleAssaultEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_ObstacleAssault\MovingPlatform.gen.cpp.obj"
+"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_ObstacleAssault\UE_ObstacleAssault.init.gen.cpp.obj"
+"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_ObstacleAssault\UE_ObstacleAssault.cpp.obj"
+"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_ObstacleAssault\MovingPlatform.cpp.obj"
+"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_ObstacleAssault\Default.rc2.res"
+/OUT:"D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Intermediate\Build\Win64\x64\UnrealEditor\Development\UE_ObstacleAssault\UnrealEditor-UE_ObstacleAssault.lib"

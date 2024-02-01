@@ -5,7 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap"
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/LearningKit_Games/Maps/LearningKit_Games_Showcase.umap",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Main.umap",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_ThirdPersonCharacter.uasset",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset"
 			]
 		}
 	]

@@ -29,5 +29,5 @@ public:
 	FVector StartLocation;
 
 	UPROPERTY(Editanywhere, Category = "Moving Platform")
-	float MaxDistance;
+	float MoveDistance;
 };

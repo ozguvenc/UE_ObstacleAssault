@@ -2491,3 +2491,622 @@ LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable
 [2024.02.02-21.26.14:633][721]LogOnline: OSS: Created online subsystem instance for: :Context_25
 [2024.02.02-21.26.14:635][721]PIE: Server logged in
 [2024.02.02-21.26.14:636][721]PIE: Play in editor total start time 2.245 seconds.
+[2024.02.02-21.34.17:031][ 13]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.02.02-21.34.28:137][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-21.34.28:137][639]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.02-21.34.28:138][639]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-21.34.28:140][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.34.28:144][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.02-21.34.28:147][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.34.28:151][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-21.34.28:153][639]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 22
+[2024.02.02-21.34.28:153][639]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.02-21.34.28:155][639]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=22
+[2024.02.02-21.34.28:166][639]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.02.02-21.34.28:215][640]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2024.02.02-21.34.28:945][696]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.02-21.34.28:951][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.02-21.34.28:951][696]PIE: New page: PIE session: Main (Feb 2, 2024, 7:34:28 AM)
+[2024.02.02-21.34.28:951][696]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.02-21.34.28:989][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037282s)
+[2024.02.02-21.34.28:989][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.037319s)
+[2024.02.02-21.34.28:995][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.02.02-21.34.28:997][696]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.34.28:997][696]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-21.34.28:997][696]LogAIModule: Creating AISystem for world Main
+[2024.02.02-21.34.28:998][696]LogPlayLevel: PIE: World Init took: (0.001210s)
+[2024.02.02-21.34.28:998][696]LogAudio: Display: Creating Audio Device:                 Id: 23, Scope: Unique, Realtime: True
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.02-21.34.28:998][696]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.02-21.34.28:998][696]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.02-21.34.28:999][696]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.02-21.34.28:999][696]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.02-21.34.28:999][696]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.02-21.34.29:001][696]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.02-21.34.29:028][696]LogAudioMixer: Display: Using Audio Hardware Device BenQ EX3210R (NVIDIA High Definition Audio)
+[2024.02.02-21.34.29:029][696]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.02-21.34.29:029][696]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.02-21.34.29:029][696]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.02-21.34.29:029][696]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=23
+[2024.02.02-21.34.29:029][696]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=23
+[2024.02.02-21.34.29:031][696]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=23
+[2024.02.02-21.34.29:031][696]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=23
+[2024.02.02-21.34.29:031][696]LogInit: FAudioDevice initialized with ID 23.
+[2024.02.02-21.34.29:032][696]LogAudio: Display: Audio Device (ID: 23) registered with world 'Main'.
+[2024.02.02-21.34.29:032][696]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 23
+[2024.02.02-21.34.29:035][696]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.02-21.34.29:050][696]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.02-14.34.29
+[2024.02.02-21.34.31:486][696]LogWorld: Bringing up level for play took: 2.451489
+[2024.02.02-21.34.31:490][696]LogOnline: OSS: Created online subsystem instance for: :Context_26
+[2024.02.02-21.34.31:491][696]PIE: Server logged in
+[2024.02.02-21.34.31:492][696]PIE: Play in editor total start time 2.542 seconds.
+[2024.02.02-21.34.39:378][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-21.34.39:378][280]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.02-21.34.39:378][280]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-21.34.39:380][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.34.39:384][280]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.02-21.34.39:390][280]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.34.39:395][280]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-21.34.39:398][280]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 23
+[2024.02.02-21.34.39:398][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.02.02-21.34.39:400][280]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=23
+[2024.02.02-21.34.39:410][280]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.02.02-21.34.39:482][281]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2024.02.02-21.34.39:529][281]LogLiveCoding: Display:    Creating library D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Binaries\Win64\UnrealEditor-UE_ObstacleAssault.patch_17.lib and object D:\GitHub\UNREAL_ENGINE\UE_ObstacleAssault\UE_ObstacleAssault\Binaries\Win64\UnrealEditor-UE_ObstacleAssault.patch_17.exp
+[2024.02.02-21.34.39:682][284]LogClass: UPackage /Script/UE_ObstacleAssault Reload.
+[2024.02.02-21.34.39:682][284]LogClass: UClass MovingPlatform Reload.
+[2024.02.02-21.34.39:682][284]LogClass: Could not find existing class MovingPlatform in package /Script/UE_ObstacleAssault for reload, assuming new or modified class
+[2024.02.02-21.34.39:692][284]Re-instancing MovingPlatform after reload.
+[2024.02.02-21.34.39:767][284]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.02.02-21.34.39:881][285]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.02.02-21.34.39:881][285]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.02.02-21.36.44:926][ 58]Cmd: DELETE
+[2024.02.02-21.36.44:926][ 58]Cmd: ACTOR DELETE
+[2024.02.02-21.36.44:965][ 58]LogEditorActor: Deleted Actor: MovingPlatform
+[2024.02.02-21.36.44:972][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.02.02-21.36.44:974][ 58]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2024.02.02-21.36.46:699][195]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-21.36.46:802][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.02-21.36.46:839][195]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2024.02.02-21.36.46:949][195]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.02-21.36.46:951][195]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/MainE3E42C3A49BD08A2ED0288914DDDBE48.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap'
+[2024.02.02-21.36.46:977][195]LogFileHelpers: Saving map 'Main' took 0.176
+[2024.02.02-21.36.46:986][195]LogFileHelpers: InternalPromptForCheckoutAndSave took 286 ms
+[2024.02.02-21.36.46:994][195]AssetCheck: New page: Asset Save: Main
+[2024.02.02-21.36.46:994][195]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.02-21.37.01:800][599]LogEditorClassViewer: Warning: Class /Game/LearningKit_Robots/ReadMe.ReadMe_C has parent /Script/IntroTutorials.EditorTutorial, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.02.02-21.37.01:906][599]LogSlate: Took 0.010275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.02.02-21.37.18:693][555]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform
+[2024.02.02-21.37.18:696][555]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.37.18:697][555]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-21.37.18:711][555]LogSlate: Warning: The command 'BlueprintEditorSpawnNodes.AddActorRefAction->CommandInfo' has the same default chord as 'BlueprintEditorSpawnNodes.(Class=/Script/BlueprintGraph.K2Node_Knot Key=R Shift=false Ctrl=false Alt=false)' [R]
+[2024.02.02-21.37.19:672][555]LogBlueprintEditor: Perf: 0.8 total seconds to load all 7 blueprint libraries in project. Avoid references to content in blueprint libraries to shorten this time.
+[2024.02.02-21.37.19:672][555]LogBlueprintEditor: Perf: 0.6 seconds loading: /Game/LearningKit_Robots/Blueprints/Robots/Robot_MASTER/RobotFunctionLib
+[2024.02.02-21.37.20:694][555]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
+[2024.02.02-21.37.20:899][555]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.204399s
+[2024.02.02-21.37.21:937][555]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 3.244253s (1.244253s overbudget)
+[2024.02.02-21.37.21:937][555]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.02.02-21.37.22:097][555]LogViewport: Scene viewport resized to 568x678, mode Windowed.
+[2024.02.02-21.37.22:293][556]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.37.27:979][573]LogViewport: Scene viewport resized to 550x403, mode Windowed.
+[2024.02.02-21.37.28:130][573]LogViewport: Scene viewport resized to 688x503, mode Windowed.
+[2024.02.02-21.37.28:295][573]LogViewport: Scene viewport resized to 550x403, mode Windowed.
+[2024.02.02-21.37.28:850][575]LogViewport: Scene viewport resized to 545x393, mode Windowed.
+[2024.02.02-21.37.28:995][576]LogViewport: Scene viewport resized to 597x646, mode Windowed.
+[2024.02.02-21.37.33:500][699]LogViewport: Scene viewport resized to 633x646, mode Windowed.
+[2024.02.02-21.37.33:621][700]LogViewport: Scene viewport resized to 636x646, mode Windowed.
+[2024.02.02-21.37.33:738][701]LogViewport: Scene viewport resized to 645x646, mode Windowed.
+[2024.02.02-21.37.35:878][828]LogViewport: Scene viewport resized to 648x646, mode Windowed.
+[2024.02.02-21.37.35:984][829]LogViewport: Scene viewport resized to 699x646, mode Windowed.
+[2024.02.02-21.37.36:083][830]LogViewport: Scene viewport resized to 752x646, mode Windowed.
+[2024.02.02-21.37.36:187][831]LogViewport: Scene viewport resized to 761x646, mode Windowed.
+[2024.02.02-21.37.36:528][848]LogViewport: Scene viewport resized to 756x646, mode Windowed.
+[2024.02.02-21.37.36:638][849]LogViewport: Scene viewport resized to 698x646, mode Windowed.
+[2024.02.02-21.37.36:746][850]LogViewport: Scene viewport resized to 682x646, mode Windowed.
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: ================================================
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: Total job queries 222, among them cache hits 86 (38.74%)
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: Tracking 136 distinct input hashes that result in 78 distinct outputs (57.35%)
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: RAM used: 307.92 KiB of 819.20 MiB budget. Usage: 0.04%
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.02.02-21.38.43:347][846]LogShaderCompilers: Display: ================================================
+[2024.02.02-21.38.46:331][  9]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.38.46:333][  9]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.38.46:334][  9]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_0
+[2024.02.02-21.38.48:046][ 99]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.38.48:046][ 99]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.38.48:047][ 99]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_1
+[2024.02.02-21.39.02:193][854]Cmd: TRANSACTION UNDO
+[2024.02.02-21.39.02:193][854]LogEditorTransaction: Undo Set Scale
+[2024.02.02-21.39.30:614][291]Cmd: TRANSACTION UNDO
+[2024.02.02-21.39.30:614][291]LogEditorTransaction: Undo Set Scale
+[2024.02.02-21.39.41:357][836]Cmd: SELECT NONE
+[2024.02.02-21.39.43:257][947]Cmd: TRANSACTION UNDO
+[2024.02.02-21.39.43:257][947]LogEditorTransaction: Undo Clicking on Elements
+[2024.02.02-21.39.43:930][964]Cmd: TRANSACTION UNDO
+[2024.02.02-21.39.43:930][964]LogEditorTransaction: Undo Set Scale
+[2024.02.02-21.39.44:968][ 26]Cmd: TRANSACTION UNDO
+[2024.02.02-21.39.44:968][ 26]LogEditorTransaction: Undo Select None
+[2024.02.02-21.39.45:857][ 67]Cmd: TRANSACTION UNDO
+[2024.02.02-21.39.45:857][ 67]LogEditorTransaction: Undo Set Scale
+[2024.02.02-21.40.02:649][938]Cmd: TRANSACTION UNDO
+[2024.02.02-21.40.02:649][938]LogEditorTransaction: Undo Set Scale
+[2024.02.02-21.40.06:519][117]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.02-21.40.06:528][117]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.02-21.40.06:528][117]PIE: New page: PIE session: Main (Feb 2, 2024, 7:40:06 AM)
+[2024.02.02-21.40.06:528][117]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.02-21.40.06:556][117]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027638s)
+[2024.02.02-21.40.06:556][117]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.027674s)
+[2024.02.02-21.40.06:579][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.28ms
+[2024.02.02-21.40.06:580][117]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.40.06:581][117]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-21.40.06:581][117]LogAIModule: Creating AISystem for world Main
+[2024.02.02-21.40.06:581][117]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2024.02.02-21.40.06:581][117]LogAudio: Display: Creating Audio Device:                 Id: 24, Scope: Unique, Realtime: True
+[2024.02.02-21.40.06:581][117]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.02-21.40.06:582][117]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.02-21.40.06:582][117]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.02-21.40.06:582][117]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.02-21.40.06:582][117]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.02-21.40.06:582][117]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.02-21.40.06:582][117]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.02-21.40.06:582][117]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.02-21.40.06:582][117]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.02-21.40.06:582][117]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.02-21.40.06:582][117]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.02-21.40.06:584][117]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.02-21.40.06:609][117]LogAudioMixer: Display: Using Audio Hardware Device BenQ EX3210R (NVIDIA High Definition Audio)
+[2024.02.02-21.40.06:610][117]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.02-21.40.06:610][117]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.02-21.40.06:610][117]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.02-21.40.06:611][117]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=24
+[2024.02.02-21.40.06:611][117]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=24
+[2024.02.02-21.40.06:612][117]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=24
+[2024.02.02-21.40.06:612][117]LogInit: FAudioDevice initialized with ID 24.
+[2024.02.02-21.40.06:612][117]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=24
+[2024.02.02-21.40.06:612][117]LogAudio: Display: Audio Device (ID: 24) registered with world 'Main'.
+[2024.02.02-21.40.06:612][117]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 24
+[2024.02.02-21.40.06:615][117]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.02-21.40.06:629][117]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.02-14.40.06
+[2024.02.02-21.40.08:887][117]LogWorld: Bringing up level for play took: 2.271702
+[2024.02.02-21.40.08:889][117]LogOnline: OSS: Created online subsystem instance for: :Context_29
+[2024.02.02-21.40.08:891][117]PIE: Server logged in
+[2024.02.02-21.40.08:892][117]PIE: Play in editor total start time 2.368 seconds.
+[2024.02.02-21.40.22:640][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-21.40.22:640][ 16]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.02-21.40.22:640][ 16]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-21.40.22:642][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.40.22:646][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.02-21.40.22:651][ 16]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-21.40.22:666][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-21.40.22:666][ 16]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 24
+[2024.02.02-21.40.22:666][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.02.02-21.40.22:668][ 16]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=24
+[2024.02.02-21.40.22:679][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.02.02-21.40.22:789][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_29
+[2024.02.02-21.40.27:491][273]Cmd: TRANSACTION UNDO
+[2024.02.02-21.40.27:491][273]LogEditorTransaction: Undo Scale Elements
+[2024.02.02-21.40.31:730][471]Cmd: MODE GRID=0
+[2024.02.02-21.40.35:104][654]Cmd: TRANSACTION UNDO
+[2024.02.02-21.40.35:104][654]LogEditorTransaction: Undo Scale Elements
+[2024.02.02-21.40.36:434][704]Cmd: MODE GRID=1
+[2024.02.02-21.40.41:232][963]Cmd: MODE SCALEGRID=0
+[2024.02.02-21.40.48:927][359]Cmd: TRANSACTION UNDO
+[2024.02.02-21.40.48:927][359]LogEditorTransaction: Undo Scale Elements
+[2024.02.02-21.40.54:548][627]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-21.40.54:614][627]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.02-21.40.54:656][627]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.02.02-21.40.54:759][627]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.02-21.40.54:759][627]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Main9A84713947A1B5ED1D82AFB8F3CB06BB.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap'
+[2024.02.02-21.40.54:769][627]LogFileHelpers: Saving map 'Main' took 0.156
+[2024.02.02-21.40.54:781][627]LogFileHelpers: InternalPromptForCheckoutAndSave took 232 ms (total: 519 ms)
+[2024.02.02-21.40.54:786][627]AssetCheck: New page: Asset Save: Main
+[2024.02.02-21.40.54:786][627]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.02-21.41.39:821][642]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B
+[2024.02.02-21.41.39:821][642]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B
+[2024.02.02-21.41.39:822][642]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_2
+[2024.02.02-21.41.40:606][674]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B
+[2024.02.02-21.41.40:606][674]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B
+[2024.02.02-21.41.40:608][674]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_3
+[2024.02.02-21.41.44:113][829]Cmd: DELETE
+[2024.02.02-21.41.44:113][829]Cmd: ACTOR DELETE
+[2024.02.02-21.41.44:120][829]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.02-21.41.44:134][829]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2024.02.02-21.41.44:135][829]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2024.02.02-21.41.45:675][905]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.41.45:675][905]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.41.45:676][905]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_4
+[2024.02.02-21.41.46:050][922]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.41.46:050][922]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.41.46:051][922]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_5
+[2024.02.02-21.41.46:888][963]Cmd: DELETE
+[2024.02.02-21.41.46:888][963]Cmd: ACTOR DELETE
+[2024.02.02-21.41.46:897][963]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.02-21.41.46:914][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.02.02-21.41.46:915][963]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2024.02.02-21.41.49:279][ 90]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_C.SM_Cloud_C
+[2024.02.02-21.41.49:279][ 90]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_C.SM_Cloud_C
+[2024.02.02-21.41.49:279][ 90]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_C.SM_Cloud_C as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_6
+[2024.02.02-21.41.49:924][126]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_C.SM_Cloud_C
+[2024.02.02-21.41.49:924][126]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_C.SM_Cloud_C
+[2024.02.02-21.41.49:925][126]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_C.SM_Cloud_C as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_7
+[2024.02.02-21.41.52:261][224]Cmd: DELETE
+[2024.02.02-21.41.52:261][224]Cmd: ACTOR DELETE
+[2024.02.02-21.41.52:269][224]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.02-21.41.52:285][224]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2024.02.02-21.41.52:286][224]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.02.02-21.41.53:931][316]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_D.SM_Cloud_D
+[2024.02.02-21.41.53:931][316]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_D.SM_Cloud_D
+[2024.02.02-21.41.53:931][316]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_D.SM_Cloud_D as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_8
+[2024.02.02-21.41.55:468][397]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_D.SM_Cloud_D
+[2024.02.02-21.41.55:468][397]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_D.SM_Cloud_D
+[2024.02.02-21.41.55:469][397]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_D.SM_Cloud_D as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_9
+[2024.02.02-21.41.56:438][444]Cmd: DELETE
+[2024.02.02-21.41.56:438][444]Cmd: ACTOR DELETE
+[2024.02.02-21.41.56:445][444]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.02-21.41.56:461][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2024.02.02-21.41.56:462][444]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2024.02.02-21.42.00:977][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.42.00:977][686]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.42.00:978][686]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_10
+[2024.02.02-21.42.23:256][946]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.42.23:256][946]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.42.23:257][946]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_11
+[2024.02.02-21.42.40:692][946]LogEditorTransaction: Undo Set Scale
+[2024.02.02-21.42.41:629][978]LogEditorTransaction: Undo Modify Component Scale
+[2024.02.02-21.42.49:634][413]LogSkeletalMesh: Display: Waiting for skinned assets to be ready 0/1 (SK_EpicCharacter) ...
+[2024.02.02-21.42.49:869][415]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: ================================================
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: Total job queries 224, among them cache hits 86 (38.39%)
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: Tracking 138 distinct input hashes that result in 79 distinct outputs (57.25%)
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: RAM used: 313.06 KiB of 819.20 MiB budget. Usage: 0.04%
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: Shaders Compiled: 0
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: Jobs assigned 0, completed 0 (0%)
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 0.00 s
+[2024.02.02-21.42.49:899][415]LogShaderCompilers: Display: ================================================
+[2024.02.02-21.42.50:078][421]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.42.50:119][422]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.42.50:491][439]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.42.52:610][557]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Architecture/SM_Kit_Floor.SM_Kit_Floor
+[2024.02.02-21.42.52:610][557]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Architecture/SM_Kit_Floor.SM_Kit_Floor
+[2024.02.02-21.42.52:610][557]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Architecture/SM_Kit_Floor.SM_Kit_Floor as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_12
+[2024.02.02-21.43.09:292][478]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B
+[2024.02.02-21.43.09:292][478]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B
+[2024.02.02-21.43.09:293][478]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_B.SM_Cloud_B as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_13
+[2024.02.02-21.43.14:067][745]LogEditorTransaction: Undo Add Component
+[2024.02.02-21.43.17:424][898]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.43.17:424][898]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-21.43.17:424][898]LogActorFactory: Actor Factory spawned StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A as actor: StaticMeshActor /Game/Maps/Main.Main:PersistentLevel.StaticMeshActor_14
+[2024.02.02-21.50.54:670][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.02-21.50.54:779][  2]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto5
+[2024.02.02-21.50.54:779][  2]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Main_Auto5402B97254865674E6DCE3D810BD35FF7.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Autosaves/Game/Maps/Main_Auto5.umap'
+[2024.02.02-21.50.54:781][  2]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Autosaves/Game/Maps/Main_Auto5.umap is in the /Temp path, will not scan.
+[2024.02.02-21.50.54:781][  2]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto5 is in the /Temp path, will not scan.
+[2024.02.02-21.50.54:781][  2]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto5 is in the /Temp path, will not scan.
+[2024.02.02-21.50.54:781][  2]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.130
+[2024.02.02-21.50.54:781][  2]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.130
+[2024.02.02-21.50.54:782][  2]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_MovingPlatform] ([2] browsable assets)...
+[2024.02.02-21.50.54:783][  2]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-21.50.54:808][  2]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform]
+[2024.02.02-21.50.54:808][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MovingPlatform]
+[2024.02.02-21.50.54:815][  2]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_MovingPlatform_Auto5
+[2024.02.02-21.50.54:815][  2]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/BP_MovingPlatform_Auto59E17234941455FA68EB3BD83E65D115C.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Autosaves/Game/Blueprints/BP_MovingPlatform_Auto5.uasset'
+[2024.02.02-21.50.54:816][  2]LogFileHelpers: Auto-saving content packages took 0.035
+[2024.02.02-21.54.22:458][211]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-21.54.22:533][211]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MovingPlatform" FILE="../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_MovingPlatform.uasset" SILENT=true
+[2024.02.02-21.54.22:538][211]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MovingPlatform
+[2024.02.02-21.54.22:538][211]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/BP_MovingPlatformCB418D434F3BBB2245B91692741449D1.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_MovingPlatform.uasset'
+[2024.02.02-21.54.22:556][211]LogFileHelpers: InternalPromptForCheckoutAndSave took 98 ms (total: 617 ms)
+[2024.02.02-21.54.22:557][211]AssetCheck: New page: Asset Save: BP_MovingPlatform
+[2024.02.02-21.54.22:557][211]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform
+[2024.02.02-21.55.38:503][534]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-21.55.38:503][534]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-21.55.38:504][534]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_0
+[2024.02.02-21.55.38:506][534]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_0
+[2024.02.02-21.55.38:510][534]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2024.02.02-21.55.42:438][688]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-21.55.42:439][688]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-21.55.42:441][688]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_1
+[2024.02.02-21.55.42:442][688]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_1
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: ================================================
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Total job queries 231, among them cache hits 89 (38.53%)
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Tracking 141 distinct input hashes that result in 80 distinct outputs (56.74%)
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: RAM used: 319.43 KiB of 819.20 MiB budget. Usage: 0.04%
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Shaders Compiled: 1
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Jobs assigned 2, completed 1 (50.00%)
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Time job spent in pending queue: average 0.00 s, longest 0.00 s
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Job execution time: average 1.94 s, max 1.94 s
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Job life time (pending + execution): average 1.94 s, max 1.94
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Shader code size: average 2.434 KiB, min 2.434 KiB, max 2.434 KiB
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 1.94 s
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Average processing rate: 0.52 jobs/sec
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Total thread time: 0.437 s
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Total thread preprocess time: 0.108 s
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Percentage time preprocessing: 24.79%
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Effective parallelization: 0.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Top 1 most expensive shader types by average time:
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: Top 1 shader types by total compile time:
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 100.00% of total time (compiled    1 times, average 0.44 sec, max 0.44 sec, min 0.44 sec)
+[2024.02.02-21.59.47:139][608]LogShaderCompilers: Display: ================================================
+[2024.02.02-22.02.13:574][ 35]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2024.02.02-22.02.13:682][ 35]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Maps/Main_Auto6
+[2024.02.02-22.02.13:682][ 35]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Main_Auto691045CC14A5606E315A00B9C44195473.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Autosaves/Game/Maps/Main_Auto6.umap'
+[2024.02.02-22.02.13:683][ 35]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Autosaves/Game/Maps/Main_Auto6.umap is in the /Temp path, will not scan.
+[2024.02.02-22.02.13:683][ 35]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Maps/Main_Auto6 is in the /Temp path, will not scan.
+[2024.02.02-22.02.13:683][ 35]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Maps/Main_Auto6 is in the /Temp path, will not scan.
+[2024.02.02-22.02.13:684][ 35]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Maps/Main' took 0.131
+[2024.02.02-22.02.13:684][ 35]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.131
+[2024.02.02-22.02.13:684][ 35]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_MovingPlatform] ([2] browsable assets)...
+[2024.02.02-22.02.13:716][ 35]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform]
+[2024.02.02-22.02.13:716][ 35]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MovingPlatform]
+[2024.02.02-22.02.13:720][ 35]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_MovingPlatform_Auto6
+[2024.02.02-22.02.13:720][ 35]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/BP_MovingPlatform_Auto6951B5A294B8078A2ED6D198D0CADB61B.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Autosaves/Game/Blueprints/BP_MovingPlatform_Auto6.uasset'
+[2024.02.02-22.02.13:720][ 35]LogFileHelpers: Auto-saving content packages took 0.036
+[2024.02.02-22.04.10:151][425]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-22.04.10:178][425]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-22.04.10:178][425]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-22.04.10:218][425]LogStaticMesh: Display: Building static mesh Sphere_inversenormals...
+[2024.02.02-22.04.10:255][425]LogStaticMesh: Built static mesh [0.04s] /Engine/EditorMeshes/AssetViewer/Sphere_inversenormals.Sphere_inversenormals
+[2024.02.02-22.04.10:273][425]LogStaticMesh: Display: Building static mesh Floor_Mesh...
+[2024.02.02-22.04.10:275][425]LogStaticMesh: Built static mesh [0.00s] /Engine/EditorMeshes/AssetViewer/Floor_Mesh.Floor_Mesh
+[2024.02.02-22.04.11:135][425]LogViewport: Scene viewport resized to 934x846, mode Windowed.
+[2024.02.02-22.04.11:624][433]LogMeshUtilities: Finished distance field build in 1.2s - 126x126x21 sparse distance field, 0.5Mb total, 0.0Mb always loaded, 80% occupied, 3 triangles, Floor_Mesh
+[2024.02.02-22.04.12:559][469]LogShaderCompilers: Display: ================================================
+[2024.02.02-22.04.12:559][469]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.02.02-22.04.12:559][469]LogShaderCompilers: Display: Total job queries 241, among them cache hits 91 (37.76%)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Tracking 144 distinct input hashes that result in 82 distinct outputs (56.94%)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: RAM used: 324.79 KiB of 819.20 MiB budget. Usage: 0.04%
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Shaders Compiled: 4
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Jobs assigned 8, completed 4 (50.00%)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Average time worker was idle: 132.06 s
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Time job spent in pending queue: average 0.35 s, longest 1.29 s
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Job execution time: average 1.62 s, max 2.04 s
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Job life time (pending + execution): average 1.65 s, max 2.04
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Shader code size: average 3.411 KiB, min 2.434 KiB, max 4.145 KiB
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 3.35 s
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Jobs were issued in 8 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Average processing rate: 1.19 jobs/sec
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Total thread time: 2.244 s
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Total thread preprocess time: 0.405 s
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Percentage time preprocessing: 18.05%
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Effective parallelization: 0.67 (times faster than compiling all shaders on one thread). Compare with number of workers: 4
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    3 times, average 0.56 sec, max 0.64 sec, min 0.44 sec)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 75.14% of total time (compiled    3 times, average 0.56 sec, max 0.64 sec, min 0.44 sec)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 24.86% of total time (compiled    1 times, average 0.56 sec, max 0.56 sec, min 0.56 sec)
+[2024.02.02-22.04.12:560][469]LogShaderCompilers: Display: ================================================
+[2024.02.02-22.04.36:310][760]Cmd: TRANSACTION UNDO
+[2024.02.02-22.04.36:310][760]LogEditorTransaction: Undo Create Convex Collision
+[2024.02.02-22.05.00:526][138]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-22.05.00:660][138]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A
+[2024.02.02-22.05.00:660][138]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/SM_Cloud_A00F748334D288F7159A9BB90CBC0D760.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.uasset'
+[2024.02.02-22.05.00:673][138]LogFileHelpers: InternalPromptForCheckoutAndSave took 146 ms (total: 764 ms)
+[2024.02.02-22.05.00:678][138]AssetCheck: New page: Asset Save: SM_Cloud_A
+[2024.02.02-22.05.00:678][138]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-22.05.01:997][213]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-22.05.02:054][213]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A
+[2024.02.02-22.05.02:054][213]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/SM_Cloud_A3C252DF747C6B380BACFC4AA394FCFC5.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.uasset'
+[2024.02.02-22.05.02:063][213]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 830 ms)
+[2024.02.02-22.05.02:065][213]AssetCheck: New page: Asset Save: SM_Cloud_A
+[2024.02.02-22.05.02:065][213]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-22.05.14:147][895]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.02-22.05.14:156][895]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.02.02-22.05.14:156][895]LogPlayLevel: [PlayLevel] Compiling BP_MovingPlatform before play...
+[2024.02.02-22.05.14:213][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.02.02-22.05.14:214][895]LogPlayLevel: PlayLevel: Blueprint regeneration took 58 ms (1 blueprints)
+[2024.02.02-22.05.14:214][895]PIE: New page: PIE session: Main (Feb 2, 2024, 8:05:14 AM)
+[2024.02.02-22.05.14:217][895]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.02-22.05.14:246][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029062s)
+[2024.02.02-22.05.14:246][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.029095s)
+[2024.02.02-22.05.14:263][895]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.02-22.05.14:263][895]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-22.05.14:263][895]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-22.05.14:264][895]LogAIModule: Creating AISystem for world Main
+[2024.02.02-22.05.14:266][895]LogPlayLevel: PIE: World Init took: (0.002417s)
+[2024.02.02-22.05.14:266][895]LogAudio: Display: Creating Audio Device:                 Id: 25, Scope: Unique, Realtime: True
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.02-22.05.14:266][895]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.02-22.05.14:266][895]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.02-22.05.14:267][895]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.02-22.05.14:267][895]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.02-22.05.14:267][895]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.02-22.05.14:269][895]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.02-22.05.14:294][895]LogAudioMixer: Display: Using Audio Hardware Device BenQ EX3210R (NVIDIA High Definition Audio)
+[2024.02.02-22.05.14:294][895]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.02-22.05.14:294][895]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.02-22.05.14:294][895]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.02-22.05.14:295][895]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=25
+[2024.02.02-22.05.14:295][895]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=25
+[2024.02.02-22.05.14:297][895]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=25
+[2024.02.02-22.05.14:297][895]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=25
+[2024.02.02-22.05.14:297][895]LogInit: FAudioDevice initialized with ID 25.
+[2024.02.02-22.05.14:297][895]LogAudio: Display: Audio Device (ID: 25) registered with world 'Main'.
+[2024.02.02-22.05.14:297][895]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 25
+[2024.02.02-22.05.14:301][895]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.02-22.05.14:313][895]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.02-15.05.14
+[2024.02.02-22.05.16:544][895]LogWorld: Bringing up level for play took: 2.243121
+[2024.02.02-22.05.16:548][895]LogOnline: OSS: Created online subsystem instance for: :Context_36
+[2024.02.02-22.05.16:555][895]PIE: Server logged in
+[2024.02.02-22.05.16:556][895]PIE: Play in editor total start time 2.402 seconds.
+[2024.02.02-22.05.31:727][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-22.05.31:727][942]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.02-22.05.31:728][942]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-22.05.31:729][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-22.05.31:735][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.02-22.05.31:740][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-22.05.31:752][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-22.05.31:754][942]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 25
+[2024.02.02-22.05.31:754][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.02.02-22.05.31:756][942]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=25
+[2024.02.02-22.05.31:766][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.02-22.05.31:854][943]LogPlayLevel: Display: Destroying online subsystem :Context_36
+[2024.02.02-22.05.34:926][111]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-22.05.34:991][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.02-22.05.35:032][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2024.02.02-22.05.35:135][111]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.02-22.05.35:136][111]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/MainFA28AC3F4AC90F70A19A82AE143F5453.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap'
+[2024.02.02-22.05.35:144][111]LogFileHelpers: Saving map 'Main' took 0.153
+[2024.02.02-22.05.35:162][111]LogFileHelpers: InternalPromptForCheckoutAndSave took 235 ms (total: 1.06 sec)
+[2024.02.02-22.05.35:166][111]AssetCheck: New page: Asset Save: Main
+[2024.02.02-22.05.35:166][111]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.02-22.06.10:473][577]Cmd: DELETE
+[2024.02.02-22.06.10:474][577]Cmd: ACTOR DELETE
+[2024.02.02-22.06.10:482][577]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.02.02-22.06.10:499][577]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.02.02-22.06.10:501][577]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2024.02.02-22.06.23:162][288]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-22.06.23:162][288]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-22.06.23:163][288]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_2
+[2024.02.02-22.06.23:165][288]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_2
+[2024.02.02-22.06.25:131][388]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-22.06.25:131][388]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform_C
+[2024.02.02-22.06.25:133][388]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_3
+[2024.02.02-22.06.25:135][388]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MovingPlatform.BP_MovingPlatform as actor: BP_MovingPlatform_C /Game/Maps/Main.Main:PersistentLevel.BP_MovingPlatform_C_3
+[2024.02.02-22.06.42:358][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-22.06.42:433][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Main" FILE="../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.02.02-22.06.42:478][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.02.02-22.06.42:586][352]LogSavePackage: Moving output files for package: /Game/Maps/Main
+[2024.02.02-22.06.42:586][352]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/Main1C1F6A0D412027057A93F5A6B8841312.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Maps/Main.umap'
+[2024.02.02-22.06.42:595][352]LogFileHelpers: Saving map 'Main' took 0.162
+[2024.02.02-22.06.42:605][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 246 ms (total: 1.31 sec)
+[2024.02.02-22.06.42:610][352]AssetCheck: New page: Asset Save: Main
+[2024.02.02-22.06.42:610][352]LogContentValidation: Display: Validating /Script/Engine.World /Game/Maps/Main.Main
+[2024.02.02-22.06.43:892][428]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.02-22.06.43:903][428]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.02-22.06.43:903][428]PIE: New page: PIE session: Main (Feb 2, 2024, 8:06:43 AM)
+[2024.02.02-22.06.43:904][428]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.02-22.06.43:932][428]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029067s)
+[2024.02.02-22.06.43:932][428]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.029114s)
+[2024.02.02-22.06.43:949][428]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.02.02-22.06.43:950][428]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-22.06.43:950][428]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-22.06.43:950][428]LogAIModule: Creating AISystem for world Main
+[2024.02.02-22.06.43:951][428]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2024.02.02-22.06.43:951][428]LogAudio: Display: Creating Audio Device:                 Id: 26, Scope: Unique, Realtime: True
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.02-22.06.43:951][428]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.02-22.06.43:951][428]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.02-22.06.43:951][428]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.02-22.06.43:951][428]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.02-22.06.43:952][428]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.02-22.06.43:953][428]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.02-22.06.43:977][428]LogAudioMixer: Display: Using Audio Hardware Device BenQ EX3210R (NVIDIA High Definition Audio)
+[2024.02.02-22.06.43:978][428]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.02-22.06.43:978][428]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.02-22.06.43:978][428]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.02-22.06.43:978][428]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=26
+[2024.02.02-22.06.43:978][428]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=26
+[2024.02.02-22.06.43:980][428]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=26
+[2024.02.02-22.06.43:980][428]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=26
+[2024.02.02-22.06.43:980][428]LogInit: FAudioDevice initialized with ID 26.
+[2024.02.02-22.06.43:980][428]LogAudio: Display: Audio Device (ID: 26) registered with world 'Main'.
+[2024.02.02-22.06.43:980][428]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 26
+[2024.02.02-22.06.43:983][428]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.02-22.06.43:996][428]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.02-15.06.43
+[2024.02.02-22.06.46:150][428]LogWorld: Bringing up level for play took: 2.166479
+[2024.02.02-22.06.46:153][428]LogOnline: OSS: Created online subsystem instance for: :Context_37
+[2024.02.02-22.06.46:154][428]PIE: Server logged in
+[2024.02.02-22.06.46:156][428]PIE: Play in editor total start time 2.255 seconds.
+[2024.02.02-22.06.59:448][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-22.06.59:448][334]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.02-22.06.59:448][334]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-22.06.59:450][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-22.06.59:454][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.02-22.06.59:460][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-22.06.59:475][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-22.06.59:477][334]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 26
+[2024.02.02-22.06.59:477][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.02.02-22.06.59:479][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
+[2024.02.02-22.06.59:488][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.02.02-22.06.59:577][335]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2024.02.02-22.07.00:265][371]Cmd: SELECT NONE
+[2024.02.02-22.07.20:967][614]LogEditorTransaction: Undo Create Convex Collision
+[2024.02.02-22.09.21:694][847]LogSlate: Window 'Message' being destroyed
+[2024.02.02-22.09.21:703][847]Message dialog closed, result: Yes, title: Message, text: Are you sure you want to convert all box collision?
+[2024.02.02-22.09.35:953][689]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.02.02-22.09.36:020][689]LogSavePackage: Moving output files for package: /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A
+[2024.02.02-22.09.36:020][689]LogSavePackage: Moving '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Saved/SM_Cloud_A644A74F2468B2EEB089A7EBD4EE263A7.tmp' to '../../../../../GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.uasset'
+[2024.02.02-22.09.36:031][689]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 1.39 sec)
+[2024.02.02-22.09.36:034][689]AssetCheck: New page: Asset Save: SM_Cloud_A
+[2024.02.02-22.09.36:034][689]LogContentValidation: Display: Validating /Script/Engine.StaticMesh /Game/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.SM_Cloud_A
+[2024.02.02-22.09.45:489][253]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.02.02-22.09.45:496][253]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.02.02-22.09.45:496][253]PIE: New page: PIE session: Main (Feb 2, 2024, 8:09:45 AM)
+[2024.02.02-22.09.45:496][253]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Main
+[2024.02.02-22.09.45:525][253]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028745s)
+[2024.02.02-22.09.45:525][253]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Main.Main to /Game/Maps/UEDPIE_0_Main.Main (0.028791s)
+[2024.02.02-22.09.45:540][253]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2024.02.02-22.09.45:542][253]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.02.02-22.09.45:542][253]LogChaos: FPhysicsSolverBase::AsyncDt:0.016667
+[2024.02.02-22.09.45:543][253]LogAIModule: Creating AISystem for world Main
+[2024.02.02-22.09.45:543][253]LogPlayLevel: PIE: World Init took: (0.001060s)
+[2024.02.02-22.09.45:543][253]LogAudio: Display: Creating Audio Device:                 Id: 27, Scope: Unique, Realtime: True
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.02.02-22.09.45:543][253]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.02.02-22.09.45:543][253]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.02.02-22.09.45:544][253]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.02.02-22.09.45:544][253]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.02.02-22.09.45:544][253]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.02.02-22.09.45:546][253]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.02.02-22.09.45:571][253]LogAudioMixer: Display: Using Audio Hardware Device BenQ EX3210R (NVIDIA High Definition Audio)
+[2024.02.02-22.09.45:571][253]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.02.02-22.09.45:572][253]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.02.02-22.09.45:572][253]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.02.02-22.09.45:572][253]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=27
+[2024.02.02-22.09.45:572][253]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=27
+[2024.02.02-22.09.45:574][253]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=27
+[2024.02.02-22.09.45:574][253]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=27
+[2024.02.02-22.09.45:574][253]LogInit: FAudioDevice initialized with ID 27.
+[2024.02.02-22.09.45:575][253]LogAudio: Display: Audio Device (ID: 27) registered with world 'Main'.
+[2024.02.02-22.09.45:575][253]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 27
+[2024.02.02-22.09.45:577][253]LogLoad: Game class is 'BP_LearningKitGameMode_C'
+[2024.02.02-22.09.45:591][253]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Main.Main up for play (max tick rate 0) at 2024.02.02-15.09.45
+[2024.02.02-22.09.47:776][253]LogWorld: Bringing up level for play took: 2.197916
+[2024.02.02-22.09.47:778][253]LogOnline: OSS: Created online subsystem instance for: :Context_38
+[2024.02.02-22.09.47:780][253]PIE: Server logged in
+[2024.02.02-22.09.47:781][253]PIE: Play in editor total start time 2.285 seconds.
+[2024.02.02-22.10.46:759][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-22.10.46:759][334]LogWorld: BeginTearingDown for /Game/Maps/UEDPIE_0_Main
+[2024.02.02-22.10.46:760][334]LogWorld: UWorld::CleanupWorld for Main, bSessionEnded=true, bCleanupResources=true
+[2024.02.02-22.10.46:761][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-22.10.46:767][334]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.02.02-22.10.46:774][334]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.02.02-22.10.46:788][334]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.02.02-22.10.46:788][334]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 27
+[2024.02.02-22.10.46:788][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.02.02-22.10.46:790][334]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=27
+[2024.02.02-22.10.46:795][334]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.02.02-22.10.46:800][334]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.02.02-22.10.46:860][335]LogPlayLevel: Display: Destroying online subsystem :Context_38

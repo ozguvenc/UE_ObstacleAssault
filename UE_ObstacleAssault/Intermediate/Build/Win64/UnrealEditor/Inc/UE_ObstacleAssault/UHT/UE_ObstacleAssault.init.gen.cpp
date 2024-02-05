@@ -17,7 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeUE_ObstacleAssault_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x32484C40,
+				0x85D55BEB,
 				0x6A3A120D,
 				METADATA_PARAMS(0, nullptr)
 			};
@@ -25,5 +25,5 @@ void EmptyLinkFunctionForGeneratedCodeUE_ObstacleAssault_init() {}
 		}
 		return Z_Registration_Info_UPackage__Script_UE_ObstacleAssault.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_UE_ObstacleAssault(Z_Construct_UPackage__Script_UE_ObstacleAssault, TEXT("/Script/UE_ObstacleAssault"), Z_Registration_Info_UPackage__Script_UE_ObstacleAssault, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x32484C40, 0x6A3A120D));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_UE_ObstacleAssault(Z_Construct_UPackage__Script_UE_ObstacleAssault, TEXT("/Script/UE_ObstacleAssault"), Z_Registration_Info_UPackage__Script_UE_ObstacleAssault, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0x85D55BEB, 0x6A3A120D));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

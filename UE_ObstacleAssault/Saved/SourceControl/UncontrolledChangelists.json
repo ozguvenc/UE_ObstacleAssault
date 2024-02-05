@@ -11,6 +11,10 @@
 				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/SCK_Casual01/Blueprints/ThirdPersonCharacter.uasset",
 				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_MovingPlatform.uasset",
 				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/LearningKit_Games/Assets/Environment/Clouds/SM_Cloud_A.uasset",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_Cloud.uasset",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_Box.uasset",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_ObstacleAssaultGameMode.uasset",
+				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Blueprints/BP_RotatingPlatform.uasset",
 				"D:/GitHub/UNREAL_ENGINE/UE_ObstacleAssault/UE_ObstacleAssault/Content/Main.umap"
 			]
 		}
